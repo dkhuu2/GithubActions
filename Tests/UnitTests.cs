@@ -35,7 +35,7 @@ namespace GithubActionsLab
         public void Subtract_ValidKhuu()
         {
             Assert.AreEqual(0, Program.Subtract("1", "1"));
-            Assert.AreEqual(8, Program.Subtract("6", "0"));
+            Assert.AreEqual(6, Program.Subtract("6", "0"));
             Assert.AreEqual(0, Program.Subtract("2", "2"));
         }
 
